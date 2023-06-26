@@ -15,6 +15,11 @@ The predicted mean FRET values computed by [*FRETraj*](https://github.com/RNA-FR
 |5    |0.19|S_000083_009|-185.004     |
 |... |
 
+Visualize the ACVs on the structural models by running the following Python script from the **PyMOL command line**
+```
+run top10_rosetta_energy.py
+```
+
 ---
 
 * `2_scored_by_FRET_RMSD/` contains models **filtered by a FRET treshold >0.4 and a RMSD < 15 A**. All models are superimposed and aligned to the crystal structure (PDB 6n2v). The best model (no. 21) has a RMSD of 8.6 A to the crystal structure.
@@ -29,4 +34,13 @@ The calculated RMSDs and Rosetta energy scores are listed in `models_scored_by_F
 |**21**   |8.576731682|S_000273_005|-157.595     |
 |... |
 
+Visualize the overlay of the low RMSD models
+```
+run 2.1_lowest_RMSD_model_overlay.py
+```
+
+Compare the individual models to the crystal structure
+```
+run 2.2_crystal_to_lowest_RMSD_model.py
+```
 
