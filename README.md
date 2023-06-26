@@ -1,6 +1,6 @@
-# Steffen et al., Manuscript submitted to *Nucleic Acids Research* 2023
+# Steffen et al., FRET-guided modeling of nucleic acids, 2023
 
-This repository contains structural models of the *de novo* modeling workflow of a **manganese(II) sensing riboswitch** (PDB 6n2v). The modeling code can be found [here](https://github.com/RNA-FRETools/rosettascripts/blob/master/tutorial/Mn_riboswitch.md)).
+This repository contains structural models of the proof-of-concept *de novo* modeling trial of a **manganese(II) sensing riboswitch** (PDB 6n2v). The modeling code can be found [here](https://github.com/RNA-FRETools/rosettascripts/blob/master/tutorial/Mn_riboswitch.md).
 The resulting models are organized as follows:
 
 * `1_scored_by_rosetta_energy/` contains the top 10 models **scored by the Rosetta energy function from FARFAR2** (Watkins, *Structure* 2020) was well as  donor and acceptor accessible-contact volumes (ACV). 
