@@ -41,6 +41,6 @@ run 2.1_lowest_RMSD_model_overlay.py
 
 Compare the individual models to the crystal structure
 ```
-run 2.2_crystal_to_lowest_RMSD_model.py
+run 2.2_lowest_RMSD_model_to_crystal.py
 ```
 
