@@ -1,4 +1,5 @@
 # Steffen et al., FRET-guided modeling of nucleic acids, 2023
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10963197.svg)](https://doi.org/10.5281/zenodo.10963197)
 
 This repository contains structural models of the proof-of-concept *de novo* modeling trial of a **manganese(II) sensing riboswitch** (PDB 6n2v). The modeling code can be found [here](https://github.com/RNA-FRETools/rosettascripts/blob/master/tutorial/Mn_riboswitch.md).
 The resulting models are organized as follows:
